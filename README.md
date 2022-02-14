@@ -21,7 +21,7 @@ The integration of compressed sensing and parallel imaging (CS-PI) provides a ro
 The interpretation of the generalized ideology behind iGM. From left to right:CVAE,iGM 
 
 
-<div align="center"><img src="https://github.com/yqx7150/UGM-PI/Convergence.jpg"> </div>
+<div align="center"><img src="https://github.com/yqx7150/UGM-PI/blob/main/Convergence.jpg"> </div>
 Convergence tendency comparison of DSM in the native NCSN and the advanced UGM-PI, respectively.
 
 
