@@ -16,6 +16,14 @@ Copyright 2022, Department of Electronic Information Engineering, Nanchang Unive
      
 The integration of compressed sensing and parallel imaging (CS-PI) provides a robust mechanism for accelerating MRI acquisitions. However, most such strategies require the ex-plicit formation of either coil sensitivity profiles or a cross-coil correlation operator, and as a result reconstruction corresponds to solving a challenging bilinear optimization problem. In this work, we present an unsupervised deep learning framework for calibration-free parallel MRI, coined universal generative modeling for parallel imaging (UGM-PI). More precisely, we make use of the merits of both wavelet transform and the adaptive iteration strategy in a unified framework. We train a powerful noise condi-tional score network by forming wavelet tensor as the net-work input at the training phase. Experimental results on both physical phantom and in vivo datasets implied that the proposed method is comparable and even superior to state-of-the-art CS-PI reconstruction approaches.         
        
+## Convergence tendency comparison
+
+The interpretation of the generalized ideology behind iGM. From left to right:CVAE,iGM 
+
+
+<div align="center"><img src="https://github.com/yqx7150/UGM-PI/blob/master/Convergence.jpg"> </div>
+Convergence tendency comparison of DSM in the native NCSN and the advanced UGM-PI, respectively.
+
 
 
 ### Other Related Projects
