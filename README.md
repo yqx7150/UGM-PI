@@ -20,7 +20,7 @@ The integration of compressed sensing and parallel imaging (CS-PI) provides a ro
 
 
 <div align="center"><img src="https://github.com/yqx7150/UGM-PI/blob/main/Convergence.jpg"> </div>
-<div align="center">Convergence tendency comparison of DSM in the native NCSN and the advanced UGM-PI, respectively.
+<div align="center">Convergence tendency comparison of DSM in the native NCSN and the advanced UGM-PI, respectively. </div>
 
 
 
