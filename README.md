@@ -40,6 +40,21 @@ The integration of compressed sensing and parallel imaging (CS-PI) provides a ro
 <div align="center"><img src="https://github.com/yqx7150/UGM-PI/blob/main/Comparison-Fig4.png"> </div>
 <div align="center">Reconstruction comparison of the in vivo MPRAGE brain image obtained by P-LORAKS, SAKE, LINDBREG, and UGM-PI under 2D variable density Poisson sampling with the acceleration factor R=10. </div>
 
+## Training
+```bash
+python3 separate_SIAT.py --model ugm_pi --runner SIAT_Train --config iOrth_8h_10sigma.yml --doc iOrth_8h_10sigma
+```
+
+## Test
+```bash
+python3 separate_SIAT.py --model ugm_pi --runner SIAT_Train --doc iOrth_8h_10sigma --test
+```
+
+## Checkpoints
+We provide pretrained checkpoints. You can download pretrained models from [Baidu Drive](https://pan.baidu.com/s/1evw1aHerlZsq6Zar8G9IMw). 
+key number is "7150" 
+
+
 ### Other Related Projects
 
   * Homotopic Gradients of Generative Density Priors for MR Image Reconstruction  
